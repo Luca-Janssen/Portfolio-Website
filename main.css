@@ -217,7 +217,7 @@
   margin: 0;
 }
 
-.contact-form {
+.Contact-Form {
   background-color: #1c1c1c;
   padding: 20px;
   border-radius: 8px;
@@ -230,8 +230,8 @@
   transform: translate(-50%, -50%);
 }
 
-.contact-form input,
-.contact-form textarea {
+.Contact-Form input,
+.Contact-Form textarea {
   background-color: #333;
   border: none;
   color: #fff;
@@ -240,13 +240,13 @@
   font-size: 16px;
 }
 
-.contact-form textarea {
+.Contact-Form textarea {
   resize: none;
   height: 130px;
   width: 500px;
 }
 
-.contact-form button {
+.Contact-Form Button {
   background-color: #4CAF50;
   color: #fff;
   border: none;
