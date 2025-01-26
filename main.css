@@ -103,7 +103,7 @@
   height: auto;
   justify-content: center;
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 65%;
   transform: translate(-50%, -50%);
 }
@@ -155,19 +155,17 @@
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bold;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.5;
   margin: 0;
 }
 
 .Header-Text {
   color: #fff;
-  padding: 20px;
-  border-radius: 8px;
   width: 20%;
   position: absolute;
     top: 33%;
-    left: 51%;
+    left: 50.5%;
     transform: translate(-50%, -50%);
 }
 
@@ -175,15 +173,13 @@
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bolder;
-  font-size: 80px;
+  font-size: 70px;
   line-height: 1.5;
   margin: 0;
 }
 
 .Paragraph-Text {
   color: #fff;
-  padding: 20px;
-  border-radius: 8px;
   width: 30%;
   position: absolute;
     top: 70%;
@@ -196,8 +192,173 @@
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bolder;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 1.5;
   margin: 0;
   text-align: center;
+}
+
+.Project-Text {
+  color: #fff;
+  width: 20%;
+  position: absolute;
+    top: 33%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.Project-Text h1 {
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  font-size: 70px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.contact-form {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 130px;
+  width: 500px;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Project-Container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.Card {
+  text-align: center;
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  color: #fff;
+}
+
+.Card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Card h3 {
+  margin-top: 10px;
+}
+
+.ROCNijmegen-Text {
+  color: #fff;
+  width: 30%;
+  position: absolute;
+    top: 120%;
+    left: 15.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ROCNijmegen-Text p {
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+.Mastermind-Text {
+  color: #fff;
+  width: 30%;
+  position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Mastermind-Text p {
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+.Pinkgoose-Text {
+  color: #fff;
+  width: 30%;
+  position: absolute;
+    top: 120%;
+    left: 83.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Pinkgoose-Text p {
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+.Contactinfo-Text {
+  color: #fff;
+  width: 30%;
+  position: absolute;
+    top: 70%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.Contactinfo-Text p {
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
 }
