@@ -7,7 +7,7 @@
     background-color: #2a282d;
   }
 
-.container-NavMenu {
+.Container-NavMenu {
     display: flex;
     flex-direction: row;
     width: 20%;
@@ -21,12 +21,12 @@
 
 
 
-.MenuIcon {
+.Menu-Icon {
   height: 90px;
   width: 90px;
 }
 
-.NavText {
+.Nav-Text {
   font-size: 30px;
   font-weight: 500;
   line-height: 1.2;
@@ -42,7 +42,100 @@
     transform: translate(-50%, -50%);
 }
 
-.MenuButton {
+.Menu-Button {
   background:none;
   border:none;
+}
+
+.Profile-Card {
+  display: flex;
+  align-items: top;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  justify-self: left;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.Profile-Image {
+  flex: 0 0 100px;
+  margin-right: 20px;
+}
+
+.Profile-Image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.Profile-Info h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  align-items: center;
+}
+
+.Profile-Info p {
+  margin: 0;
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  font-size: 30px;
+}
+
+
+.Main-Icon {
+  height: 400px;
+  width: 450px;
+}
+
+.Image-Container {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: auto;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+.Stats-Container {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+  position: absolute;
+  top: 80%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+}
+
+.Stat {
+  text-align: center;
+}
+
+.Stat h3 {
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.Stat p {
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  font-size: 30px;
+  margin: 0;
 }
