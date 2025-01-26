@@ -1,0 +1,48 @@
+* {
+    margin: none;
+    padding: none;
+  }
+  
+  body {
+    background-color: #2a282d;
+  }
+
+.container-NavMenu {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: auto;
+    justify-content: center;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+.MenuIcon {
+  height: 90px;
+  width: 90px;
+}
+
+.NavText {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: "Asap", serif;
+  font-optical-sizing: auto;
+  font-style: bolder;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.MenuButton {
+  background:none;
+  border:none;
+}
