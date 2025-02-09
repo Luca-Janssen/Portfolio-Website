@@ -8,7 +8,7 @@
     background-color: #2a282d;
   }
 
-.Container-NavMenu {
+  header {
     display: flex;
     flex-direction: row;
     width: 20%;
@@ -19,15 +19,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+/* Positioning for the header */
 
 
-
-.Menu-Icon {
+.menu-icon {
   height: 90px;
   width: 90px;
 }
+/* Sizing for the nav buttons*/
 
-.Nav-Text {
+.nav-text {
   font-size: 30px;
   font-weight: 500;
   line-height: 1.2;
@@ -42,13 +43,15 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* Text styling for nav*/
 
-.Menu-Button {
+.a {
   background:none;
   border:none;
 }
+/* Nav button styling*/
 
-.Profile-Card {
+.profile-card {
   display: flex;
   align-items: top;
   background-color: #f1f1f1;
@@ -62,19 +65,22 @@
   left: 15%;
   transform: translate(-50%, -50%);
 }
+/* Profile card positioning*/
 
-.Profile-Image {
+.profile-image {
   flex: 0 0 100px;
   margin-right: 20px;
 }
+/* Profile card positioning*/
 
-.Profile-Image img {
+.profile-image img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
+/* Profile card styling*/
 
-.Profile-Info h2 {
+.profile-info h2 {
   margin-top: 0;
   margin-bottom: 5px;
   font-family: "Asap", serif;
@@ -82,22 +88,24 @@
   font-style: bold;
   align-items: center;
 }
+/* Profile card text*/
 
-.Profile-Info p {
+.profile-info p {
   margin: 0;
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bold;
   font-size: 30px;
 }
+/* Profile card paragraph text*/
 
-
-.Main-Icon {
+.main-icon {
   height: 400px;
   width: 450px;
 }
+/* sizing main page decoration*/
 
-.Image-Container {
+.image-container {
   display: flex;
   flex-direction: row;
   width: 20%;
@@ -108,7 +116,9 @@
   left: 65%;
   transform: translate(-50%, -50%);
 }
-.Stats-Container {
+/* Container for images*/
+
+.stats-container {
   display: flex;
   justify-content: space-around;
   color: #fff;
@@ -120,28 +130,32 @@
   left: 62%;
   transform: translate(-50%, -50%);
 }
+/* Positioning for stats*/
 
-.Stat {
+.stat {
   text-align: center;
 }
+/* Stat text alignment*/
 
-.Stat h3 {
+.stat h3 {
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bold;
   font-size: 50px;
   margin-bottom: 5px;
 }
+/* stat text styling option*/
 
-.Stat p {
+.stat p {
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bold;
   font-size: 30px;
   margin: 0;
 }
+/* stat text styling option*/
 
-.Student-Info {
+.student-info {
   color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -151,8 +165,8 @@
   left: 15%;
   transform: translate(-50%, -50%);
 }
-
-.Student-Info p {
+/* positioning for student info*/
+.student-info p {
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bold;
@@ -160,8 +174,9 @@
   line-height: 1.5;
   margin: 0;
 }
+/* text styling for student info*/
 
-.Header-Text {
+.header-text {
   color: #fff;
   width: 20%;
   position: absolute;
@@ -169,8 +184,9 @@
     left: 50.5%;
     transform: translate(-50%, -50%);
 }
+/* header text positioning*/
 
-.Header-Text h1 {
+.header-text h1 {
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bolder;
@@ -178,8 +194,9 @@
   line-height: 1.5;
   margin: 0;
 }
+/* header text styling*/
 
-.Paragraph-Text {
+.paragraph-text {
   color: #fff;
   width: 30%;
   position: absolute;
@@ -188,8 +205,9 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+/* p text positioning*/
 
-.Paragraph-Text p {
+.paragraph-text p {
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bolder;
@@ -198,8 +216,9 @@
   margin: 0;
   text-align: center;
 }
+/* p text styling*/
 
-.Project-Text {
+.project-text {
   color: #fff;
   width: 20%;
   position: absolute;
@@ -207,8 +226,9 @@
     left: 52%;
     transform: translate(-50%, -50%);
 }
+/* project text positioning*/
 
-.Project-Text h1 {
+.project-text h1 {
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bolder;
@@ -216,8 +236,9 @@
   line-height: 1.5;
   margin: 0;
 }
+/* project text styling*/
 
-.Contact-Form {
+.contact-form {
   background-color: #1c1c1c;
   padding: 20px;
   border-radius: 8px;
@@ -229,9 +250,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* contact form positioning*/
 
-.Contact-Form input,
-.Contact-Form textarea {
+.contact-form input,
+.contact-form textarea {
   background-color: #333;
   border: none;
   color: #fff;
@@ -239,14 +261,16 @@
   border-radius: 4px;
   font-size: 16px;
 }
+/* area for text inside of the contact form*/
 
-.Contact-Form textarea {
+.contact-form textarea {
   resize: none;
   height: 130px;
   width: 500px;
 }
+/* sizing text area*/
 
-.Contact-Form Button {
+.contact-form Button {
   background-color: #4CAF50;
   color: #fff;
   border: none;
@@ -255,8 +279,9 @@
   font-size: 16px;
   cursor: pointer;
 }
+/* button positioning*/
 
-.Project-Container {
+.project-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
@@ -266,25 +291,29 @@
   transform: translate(-50%, -50%);
   width: 80%;
 }
+/* container for projects*/
 
-.Card {
+.card {
   text-align: center;
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bolder;
   color: #fff;
 }
+/* card for project*/
 
-.Card img {
+.card img {
   max-width: 100%;
   height: auto;
 }
+/* Project image*/
 
-.Card h3 {
+.card h3 {
   margin-top: 10px;
 }
+/* Project text*/
 
-.ROCNijmegen-Text {
+.ROCNijmegen-text {
   color: #fff;
   width: 30%;
   position: absolute;
@@ -293,8 +322,9 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+/* first project text positioning*/
 
-.ROCNijmegen-Text p {
+.ROCNijmegen-text p {
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bolder;
@@ -303,8 +333,9 @@
   margin: 0;
   text-align: center;
 }
+/* first project text styling*/
 
-.Mastermind-Text {
+.mastermind-text {
   color: #fff;
   width: 30%;
   position: absolute;
@@ -313,8 +344,9 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+/* second project text positioning*/
 
-.Mastermind-Text p {
+.mastermind-text p {
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bolder;
@@ -323,8 +355,9 @@
   margin: 0;
   text-align: center;
 }
+/* second project text styling*/
 
-.Pinkgoose-Text {
+.pinkgoose-text {
   color: #fff;
   width: 30%;
   position: absolute;
@@ -333,8 +366,9 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+/* third project text positioning*/
 
-.Pinkgoose-Text p {
+.pinkgoose-text p {
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bolder;
@@ -343,8 +377,9 @@
   margin: 0;
   text-align: center;
 }
+/* third project text styling*/
 
-.Contactinfo-Text {
+.contactinfo-text {
   color: #fff;
   width: 30%;
   position: absolute;
@@ -353,8 +388,9 @@
     transform: translate(-50%, -50%);
     text-align: left;
 }
+/* contact info page text positioning*/
 
-.Contactinfo-Text p {
+.contactinfo-text p {
   font-family: "Asap", serif;
   font-optical-sizing: auto;
   font-style: bolder;
@@ -363,3 +399,19 @@
   margin: 0;
   text-align: left;
 }
+/* contact info page text styling*/
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: 0;
+  margin: 0;
+  padding: 0;
+}
+/* list styling*/
+
+li {
+  list-style: none;
+  list-style-type: none;
+}
+/* list styling*/
